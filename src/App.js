@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+// import Header from "./header"
+import React from 'react';
+// import Functional from "./functional"
+//import Mainchildprops, {Childprops} from "./childprops"
+// import BroadcastForm from './task2';
 
-function App() {
+
+// import Form from "./Task/Form";
+// import Form2 from "./Task/Form2";
+// import WatiForm from "./WatiForm";
+// import WatiForm2 from "./WatiForm2";
+// import Backgroundcolorevent from "./backgroundcolorevent";
+
+
+import Usestatehook from "./Usestatehook";
+// import Temp from "./Task/Temp";
+// import BroadcastForm from "./task2";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Usestatehook/>
+
+    {/* <Backgroundcolorevent/> */}
+    {/* <Temp/> */}
+    {/* <Form2/> */}
+     {/* <BroadcastForm/> */}
+     {/* <Form/> */}
+
+     {/* <WatiForm/> */}
+     {/* <WatiForm2/> */}
+    </>
+  )
 }
 
 export default App;

@@ -1,0 +1,10 @@
+h2 {
+    background-color: red;
+    color: yellowgreen;
+    padding: 30px;
+}
+#heading2{
+    background-color: rgb(86, 151, 128);
+    margin-top: 40px;
+}
+/*  style in react */
